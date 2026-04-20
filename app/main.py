@@ -6,6 +6,7 @@ def main() -> None:
             if content == "stop":
                 break
             f.write(content + "\n")
-            
+
+
 if __name__ == "__main__":
     main()
