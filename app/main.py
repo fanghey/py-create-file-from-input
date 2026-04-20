@@ -1,4 +1,4 @@
-def main():
+def main() -> None:
     name = input("Enter name of the file: ") + ".txt"
     with open(name, "w", encoding="utf-8") as f:
         while True:
